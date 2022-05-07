@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/cssw?family=Raleway:wght@300;400;700&display=swap');
+
+<h2 class="proyecto_titulo">Proyecto</h2>
+<i class="far fa-file-alt proyecto_icon"></i>
+
+
+<header class="header">
+	<div class="contenedor">
+		<nav class="nav">
+				<a href="cafes.html"  class="nav_cuadro cuadroblanco">Tipos de Café</a>
+				<a href="cervezas.html" class="nav_cuadro cuadroblanco">Tipos de Cervezas</a>
+				<a href="vinos.html" class="nav_cuadro cuadroblanco">Tipos de Vinos</a>
+		</nav>
+		<section class="header_contenedor">
+			<div class="header_texto">
+				<h1 class="header_titulo">Pub de Cervezas, Café y Vinos</h1>
+				<h2 class="header_subtitulo">José María González Escobar</h2>
+			</div>
+		</section>
+	</div>
+	<div class="hero_wave" style="overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.85 C150.00,149.60 349.20,-49.85 500.00,49.85 L500.00,149.60 L0.00,149.60 Z" style="stroke: none; fill: #08f;"></path></svg></div>
+</header><br>
+
+.nav{
+	display: flex;
+	justify-content: flex-end;
+	height: 70px;
+	align-items: center;
+	font-weight: 700;
+} 
+
+.nav--footer{
+	font-weight: 300;
+	justify-content: flex-start;
+}
+
+.nav_cuadro{
+	color: #fff;
+	text-decoration: none;
+	margin-right: 20px;
+	padding: 10px 15px;
+	font-weight: inherit;
+}
+
+.cuadroblanco{
+	border: 1px solid #fff;
+}
+
+.nav_items--footer{
+	padding: 10px;
+}

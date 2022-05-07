@@ -1,0 +1,71 @@
+Proyecto HTML5 y CSS
+El proyecto consiste en realizar una web sobre alguna temática que te interese.
+
+1. El primer paso será elegir el contenido que quiere mostrar en ella.
+2. El segundo elegir el diseño.
+3. Una vez concluida la página web, debes darte de alta en un servicio de hosting
+gratuito y subir la página a dicho hosting.
+
+Características que debe tener el sitio web realizada
+12. Se valorará de forma positiva el uso de hojas de etilos adaptables para que se
+visualice de manera óptima en dispositivos móviles, así como, la autonomía del
+alumno para la realización de la web.
+¿Qué debes entregar?
+ Tarea 1: temática, título y diseño.
+ Tarea 2: fichero comprimido en zip con la web diseñada.
+ Tarea 3:url donde tienes alojada la página.
+ Tarea 4: Explica cómo has subido la página al hosting gratuito que has elegido
+(¿Qué hosting has escogido? ¿Qué cliente FTP has utilizado para subir la
+página?, ...)
+Fecha de entrega: 8 de mayo
+
+
+
+
+
+
+
+
+
+
+.nav ul{
+	list-style:none;
+}
+
+.menu > li{
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.submenu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
